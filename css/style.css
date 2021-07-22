@@ -1,0 +1,161 @@
+@font-face {
+  font-family: "SF-Regular";
+  src: url("../fonts/SFUIDisplay-Regular.woff2") format("woff2"),
+       url("../fonts/SFUIDisplay-Regular.woff") format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "SF-Semibold";
+  src: url("/fonts/SFUIDisplay-Semibold.woff2") format("woff2"),
+       url("/fonts/SFUIDisplay-Semibold.woff") format("woff");
+  font-weight: 500;
+}
+
+/*=================================================================*/
+/*=================================================================*/
+/*=================================================================*/
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 130%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+p {
+    margin: 0;
+}
+
+ul,li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+p {
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+h2 {
+
+}
+
+input,
+textarea {
+    font-family: inherit;
+}
+
+.container {
+    max-width:1270px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content {
+    flex: 1 1 auto;
+}
+
+/*=================================================================*/
+/*=================================================================*/
+/*START-header=================================================================*/
+
+.header {
+  background-image: url(../);
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container {}
+.header__inner {}
+.header-top {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: space-between;
+}
+
+.header-top__contact {
+
+}
+
+
+.header-top__logo {}
+    .menu__item li {
+      transition: all .3s ease;
+    }
+
+    .menu__item li + li {
+        margin-left: 35px;
+    }
+
+    .menu__item li:hover {
+        color: #03b0ff;
+    }
+
+    .menu__item li a {
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+
+    .menu__item {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin: 0;
+      }
+
+      .burger span {
+        width: 100%;
+        height: 4px;
+        display: block;
+        background: #6c6767;
+        margin: 0 auto;
+    }
+
+    .burger span + span {
+      margin-top: 6px;
+    }
+
+      .burger {
+        display: none;
+        width: 30px;
+    }
+    
+.burger {}
+.menu__item {}
+.menu__list {}
+.menu__link {}
+.header-top__btn {}
+.btn {}
+.header-top__tel {}
+.header-bottom {}
